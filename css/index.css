@@ -8,7 +8,7 @@
     --primary-color: #228b22; /* Official Color of Splenr */
     --text-color-dark: #333333; /* Text color for Light Background */
     --text-color-light: #333333; /* Text color for Dark Background */
-    --bg-color-light: #f8f8f8; /* Light Background Color */
+    --bg-color-light: white; /* Light Background Color */
     --bg-color-dark: #222222; /* Dark Background Color */
     --button-color-default: #228b22; /* Default Button Color */
     --button-color-active: #1c7c1c; /* Active Button Color */
@@ -51,6 +51,7 @@ p, a, span, label, input, button {
   color: var(--primary-heading-color);
   background-color: var(--bg-color-light);
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  font-weight:500;
 }
 
 .navbar-toggler-icon {
@@ -58,11 +59,12 @@ p, a, span, label, input, button {
 }
 
 .navbar-toggler-icon.x-icon:before {
-  font-family: var(--font-text);
+  font-family: var(--font-heading);
   content: "X";
   display: inline-block;
   font-size: 42px;
   background-color: var(--bg-color-light);
+  font-weight: 400;
   color: var(--primary-color);
 }
 
@@ -75,6 +77,11 @@ p, a, span, label, input, button {
   border-color: transparent;
   color: var(--bg-color-light);
 
+}
+
+a.nav-link {
+  color: var(--primary-color);
+  font-weight: 400;
 }
 
 
