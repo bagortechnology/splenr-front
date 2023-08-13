@@ -7,6 +7,7 @@
 :root {
     --primary-color: #228b22; /* Official Color of Splenr */
     --text-color-dark: #333333; /* Text color for Light Background */
+    --nav-header-color: black; /* Heading Color */
     --text-color-light: #333333; /* Text color for Dark Background */
     --bg-color-light: white; /* Light Background Color */
     --bg-color-dark: #222222; /* Dark Background Color */
@@ -80,8 +81,29 @@ p, a, span, label, input, button {
 }
 
 a.nav-link {
-  color: var(--primary-color);
-  font-weight: 400;
+  color: var(--nav-header-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar-nav .nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--accent-color);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item:hover::after {
+  transform: scaleX(1);
 }
 
 
