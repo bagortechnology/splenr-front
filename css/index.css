@@ -1,0 +1,36 @@
+/*Splenr is on mission to become one-stop shop for Filipino employment needs.
+  Developed by Blessed Bagor for EXPERTIST.
+  Started on August 8, 2023.
+
+*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #228b22; /* Official Color of Splenr */
+    --text-color-dark: #333333; /* Text color for Light Background */
+    --text-color-light: #333333; /* Text color for Dark Background */
+    --bg-color-light: #f8f8f8; /* Light Background Color */
+    --bg-color-dark: #222222; /* Dark Background Color */
+    --button-color-default: #228b2222; /* Default Button Color */
+    --button-color-active: #1c7c1c; /* Active Button Color */
+    --button-color-hover: #1c7c1c; /* Hover Button Color */
+    --button-color-disabled: #a0a0a0; /* Disabled Button Color */
+    --primary-heading-color: #333333; /* H1 Heading Color */
+    --secondary-heading-color: #555555; /* H2 to H6 Heading Color */
+    --shadow-color: #0000001a; /*Box shadow: rgba(0,0,0,0.1) Subtle Shadow */
+    --hover-color: #1c7c1c; /* Hover Color */
+    --text-selection-color: #228b22; /* Text Selection Color  */
+    --bg-selection-color: #c4ffc4; /* Background Selection Color */
+    --error-color: #ff0000; /* Error color */
+    --warning-color: #ffa500; /* Warning color */
+    --dark-mode-bg-color: #111111; /* Dark Mode Background Color */
+    --dark-mode-text-color: #cccccc; /* Dark Mode Text Color */
+    --accent-color: #228b22; /* Accent Color */
+    --success-color: #008000; /* Success color */
+    --postiive-color: #ffa500; /* Positive color */
+    --light-mode-bg-color: #ffffff; /* Light Mode Background Color */
+    --light-mode-text-color: #333333; /* Light Mode Text Color */
+
+    
+
+}
