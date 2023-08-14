@@ -127,6 +127,7 @@ a.nav-link {
   color: var(--bg-color-light);
   transition: all 0.3s ease-in-out;
   margin: 30px;
+  text-transform: uppercase;
 }
 
 .btn:hover {
