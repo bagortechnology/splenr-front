@@ -108,7 +108,7 @@ a.nav-link {
 
 #UniqueProposition {
   padding: 50px 10px 30px 10px;
-  color: #00660a;
+  color: var(--primary-color);
 
 }
 
@@ -121,17 +121,17 @@ a.nav-link {
   font-size:xx-large;
 }
 .btn {
-  background-color: #00660a;
-  border-color: #00660a;
-  color: white;
+  background-color: var(--button-color-default);
+  border-color: var(--button-color-default);
+  color: var(--bg-color-light);
   transition: all 0.3s ease-in-out;
   margin: 30px;
 }
 
 .btn:hover {
-  background-color: #008000;
-  border-color: #008000;
-  color: white;
+  background-color: var(--button-color-hover);
+  border-color: var(--button-color-hover);
+  color: var(--bg-color-light);
   transform: scale(1.1);
 }
 
