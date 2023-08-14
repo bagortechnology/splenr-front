@@ -83,7 +83,7 @@ p, a, span, label, input, button {
 a.nav-link {
   color: var(--nav-header-color);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .navbar-nav .nav-item {
@@ -108,7 +108,7 @@ a.nav-link {
 
 #UniqueProposition {
   padding: 50px 10px 30px 10px;
-  color: var(--primary-color);
+  
 
 }
 
@@ -119,6 +119,7 @@ a.nav-link {
 .UniqueSP {
   font-weight: bold;
   font-size:xx-large;
+  color: var(--primary-color);
 }
 .btn {
   background-color: var(--button-color-default);
